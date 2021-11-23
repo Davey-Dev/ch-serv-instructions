@@ -26,7 +26,9 @@ Process through the rest of the options as shown in the screenshots.
 ![image](https://user-images.githubusercontent.com/41555495/142959598-743d4c5d-c68b-4818-893a-122df47245e0.png)
 ![image](https://user-images.githubusercontent.com/41555495/142959630-6edb665f-b022-41cc-a9d3-d4ac7374cf5c.png)
 
-## Step 3: Once you're at the "Get Started" page, click on "Create a VM Instance".
+## Step 3: Create a VM Instance
+
+ Once you're at the "Get Started" page, click on "Create a VM Instance".
 ![image](https://user-images.githubusercontent.com/41555495/142959819-03939954-759c-4567-90f5-7159e792886f.png)
 
 ## Step 4: Set the name of your machine at the top.
@@ -205,7 +207,7 @@ With Password: ./Server -n "server name" -ps "password" -a 0.0.0.0 -p 14242
 
 You should be able to connect using the IP you've been using to connect to your VM (Also listed on your Instance details page on Oracle) and using the default port 14242.
 
-#Step 14.5: Setup multiple lobbies.
+## Step 14.5: Setup multiple lobbies.
 
 If you are setting up multiple lobbies, enter either of these commands
 ```
@@ -215,7 +217,7 @@ With Password: ./Server -n "server name" -ps "password" -a 0.0.0.0 -pr <port ran
 
 TIP: Enter in `./Server --help` and you'll see the many arguments you can use when starting the servers.
 
-# Step 15: Server settings.
+## Step 15: Server settings.
 
 One of the main benefits of running your own Clone Hero Online servers is to bypass the restrictions of the public servers, especially song speed limitations.
 
@@ -244,14 +246,45 @@ Press enter.
   
 Now the next time you run your server it will use your new settings.
 
-# Step 16: Make server run in the background.
+## Step 16: Make server run in the background.
 
 As you may be able to notice, you are not able to exit out of your terminal/cokmmand window without quitting out of the Server application.
   
 For any of the commands listed in Step 14 or 14.5, adding "&" to the end of the command will make it run in the background and allow you to exit your terminal session.
 
-# Step 16.5: Quitting out of your server.
+## Step 16.5: Quitting out of your server.
 
 If you were to connect back to your VM, you would be at the terminal with no clear way to close your server program.
   
 To do this, just type in `killall -e "Server"` and it will close out of the Server program in the background.
+
+# Q&A
+
+### ***Why would I want to do this?***
+
+Hosting your own dedicated clone hero servers that you can use with you and your friends have their own benefit. 
+
+First, we'll compare the other choices we have in terms of playing Clone Hero Online.
+  
+1. Using public CH lobbies
+   - Pros: Quick and easy to use, Don't need to give out your IP or use hamachi
+   - Cons: Server limits (Song speed limits, number of songs per person, etc...), Having random people join your game
+
+2. Hosting a lobby from your own PC / within Clone Hero
+   - Pros: Can set your own server limits, don't have to worry about random people joining, can add password protection
+   - Cons: Need knowledge about port forwarding OR have to setup using Hamachi (or other similar service), If creating the lobby within Clone Hero, if you disconnect then all players disconnect
+
+The dedicated server method basically takes the "Pros" from both of these choices and puts them together with the only "Con" being that the initial setup can be a bit lengthy.\
+  
+Thankfully. this can be a mostly one-time setup where you can start the lobby and forget about it.
+  
+### ***Why do I need a credit/debit card?***
+  
+Oracle Cloud will not restrict you from using resources that are paid. Because of this, they make you put a card on your account so that in the case where you were to use more resources, they would charge you. 
+
+You can check out Oracle Cloud's Always Free cloud services [here](https://www.oracle.com/cloud/free/#always-free).
+# Special Thanks
+
+Big thanks to Matt for making and improving on the standalone server. Makes life much simpler for us.
+  
+Big thanks to BormoTime for telling me about Oracle Cloud and helping me through some of my setup during my first use.
