@@ -7,7 +7,7 @@ Things you will need
 
 Things that will be helpful
 1. Some Linux Experience
-2. Common Sense
+2. uhhhhh
 
 The instructions in this guide are directed towards Windows 10/11 users however you may still be able to follow some of the instructions provided that you are knowledgable with your operating system. The main difference comes from the way you access the servers, SSH.
 
