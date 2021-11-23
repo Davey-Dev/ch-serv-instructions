@@ -69,6 +69,8 @@ Click "Convert inherited permissions into explicit permissions on this object."
 Remove each of the entries from this list EXCEPT FOR YOUR OWN USER PROFILE (will have your account name).
 Press "Ok" (x2).
 
+Instructions for other operating systems can be found [here](https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/accessinginstance.htm)
+
 ## Step 7: Finish creating the VM.
 
 Press "Create" at the bottom of the page and wait for your machine to be done provisioning.
@@ -88,7 +90,9 @@ Replace <privatekey.key> with the name of your private key file and replace <ip-
 Press Enter and if you see a message "Are you sure you want to keep connecting" or something similar, type "yes".
 If all goes right, you should be connected to your VM.
 Any future cases of connecting using this command will immediately log you in without the message in the middle.
-  
+
+Instructions for other operating systems can be found [here](https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/accessinginstance.htm)
+
 ## OPTIONAL STEP: Create a batch script to connect to your VM. (This will make the connection process quicker and easier)
 
 (Instructions for Windows 10/11)
