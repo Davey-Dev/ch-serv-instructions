@@ -291,4 +291,8 @@ You can check out Oracle Cloud's Always Free cloud services [here](https://www.o
 
 Big thanks to Matt for making and improving on the standalone server. Makes life much simpler for us.
   
-Big thanks to BormoTime for telling me about Oracle Cloud and helping me through some of my setup during my first use.
+Big thanks to [BormoTime](https://www.bormotime.com) for telling me about Oracle Cloud and helping me through some of my setup during my first use.
+
+# Contact
+
+In the case you need help or have an issue with any of these instructions, you may contact me via [Twitter](https://www.twitter.com/pizzachamp15) or Discord DMs. My Discord ID is Pizzachamp#0001
