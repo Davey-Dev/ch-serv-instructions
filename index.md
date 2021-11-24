@@ -290,7 +290,12 @@ You can check out Oracle Cloud's Always Free cloud services [here](https://www.o
 
 ### ***I need help with [issue]!***
 
-If you have problems with any particular part of these instructions or just have any questions regarding Oracle Cloud or the Standalone Server, you may contact me via [Twitter](https://www.twitter.com/pizzachamp15) or Discord DMs. My Discord tag is Pizzachamp#0001. 
+If you have problems with any particular part of these instructions or just have any questions regarding Oracle Cloud or the Standalone Server, you may contact me via [Twitter](https://www.twitter.com/pizzachamp15) or Discord DMs. My Discord tag is Pizzachamp#0001.
+ 
+### ***Can I use this Oracle Cloud service with anything else?***
+ 
+While this guide is only for setting up a Clone Hero Online Server with Oracle Cloud hosting, you can certainly follow this guide up to a certain point and be able to have a full machine that you can use for other purposes. You should be able to follow the instructions from Steps 1-8 to guide you through the initial process of setting up the VM. You can also utilize Steps 9 and 11 for port forwarding any ports you want, such as 25565 for a Minecraft Java Server.
+
 # Special Thanks
 
 Big thanks to Matt for making and improving on the standalone server. Makes life much simpler for us.
