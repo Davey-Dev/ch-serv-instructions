@@ -1,4 +1,4 @@
-# How to Host a Dedicated Clone Hero Online Server for Free
+# How to Host Your Own Dedicated Clone Hero Online Server for Free
 
 Things you will need
 1. Time
