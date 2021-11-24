@@ -287,12 +287,12 @@ Thankfully. this can be a mostly one-time setup where you can start the lobby an
 Oracle Cloud will not restrict you from using resources that are paid. Because of this, they make you put a card on your account so that in the case where you were to use more resources, they would charge you. 
 
 You can check out Oracle Cloud's Always Free cloud services [here](https://www.oracle.com/cloud/free/#always-free).
+
+### ***I need help with [issue]!***
+
+If you have problems with any particular part of these instructions or just have any questions regarding Oracle Cloud or the Standalone Server, you may contact me via [Twitter](https://www.twitter.com/pizzachamp15) or Discord DMs. My Discord tag is Pizzachamp#0001. 
 # Special Thanks
 
 Big thanks to Matt for making and improving on the standalone server. Makes life much simpler for us.
   
 Big thanks to [BormoTime](https://www.bormotime.com) for telling me about Oracle Cloud and helping me through some of my setup during my first use.
-
-# Contact
-
-In the case you need help or have an issue with any of these instructions, you may contact me via [Twitter](https://www.twitter.com/pizzachamp15) or Discord DMs. My Discord ID is Pizzachamp#0001
