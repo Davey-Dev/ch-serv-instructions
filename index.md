@@ -210,7 +210,7 @@ With Password: ./Server -n "server name" -ps "password" -a 0.0.0.0 -p 14242
 ```
 
 You should be able to connect using the IP you've been using to connect to your VM (Also listed on your Instance details page on Oracle) and using the default port 14242.
-
+ 
 ## Step 14.5: Setup multiple lobbies.
 
 If you are setting up multiple lobbies, enter either of these commands
@@ -262,6 +262,25 @@ If you were to connect back to your VM, you would be at the terminal with no cle
   
 To do this, just type in `killall -e "Server"` and it will close out of the Server program in the background.
 
+## Step 17: Joining your server.
+ 
+There are two ways to add servers to your in-game list.
+ 
+1. Adding in-game
+ If you have a single server you're adding to your list, then this option is for you. You'll want to go to the Online menu and then click "Join Server". From there, press the orange fret (or whatever you have mapped to it) and proceed to enter in your server ip and port that you started your server with back in Step 14.
+ 
+2. Adding to "settings.ini"
+ If you have multiple servers, you'll want to make a list of servers that they can copy and paste into their "settings.ini" file. 
+ 
+ You can find the "settings.ini" file by going to Clone Hero Launcher => Settings => Folder icon to the right of "CloneHero Install Directory" => Click "Yes" when it asks if you want to continue => Open settings.ini in Notepad or some other text editor.
+ 
+ You can generate the list yourself in this format 
+ `server(number) = (address):(port)`
+ The "number" doesn't matter as long as it doesn't conflict with any other values in your "settings.ini". I also made a program called [ServerListThing](https://github.com/Pizzachamp/ServerListThing) that allows you to easily generate this list of addresses.
+ 
+ If your list of servers do not appear when you go to your in-game server list, check through any previous steps to see if you missed anything.
+  
+ 
 # Q&A
 
 ### ***Why would I want to do this?***
