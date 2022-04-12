@@ -273,7 +273,7 @@ If you are adding 1 or 2 lobbies to your in-game list, you can add it by followi
 5. From this menu, you can add your address, port, and optional password if you set one up
 6. After you press confirm it will attempt to connect and add it to your list. If it does not work, read through previous instructions and make sure you haven't skipped anything.
  
-If you are adding multiple lobbies to your in-game list, you can generate a list using this tool I made called [Clone Hero Online Server List Generator](https://pizzachamp.github.io/chservlistgen/) (rolls off the tongue). This tool assumes that the multiple ports you use are in some numerical order. Once you have your list of lobbies, you'll want to add them to your "settings.ini" file in your Clone Hero Installation Folder which can be found by following these instructions
+If you are adding multiple lobbies to your in-game list, you can generate a list using this web-based tool I made called [Clone Hero Online Server List Generator](https://pizzachamp.github.io/chservlistgen/). There is also an console app executable version you can download [here](https://github.com/Pizzachamp/ServerListThing). These tools assume that the ports you use are in numerical order. Once you have your list of lobbies, you'll want to add them to your "settings.ini" file in your Clone Hero Installation Folder which can be found by following these instructions
  
 1. Go to the Clone Hero Launcher
 2. Press Settings
