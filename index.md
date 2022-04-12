@@ -1,13 +1,12 @@
-# How to Host a Dedicated Clone Hero Online Server for Free
-
 Things you will need
-1. Time
-2. Internet
-3. A Debit/Credit Card (you won't be paying for anything, it's just needed for creating an account)
+1. Internet
+2. A Debit/Credit Card (you won't be paying for anything, it's just needed for creating an account)
+3. Time
+4. Patience
 
 Things that will be helpful
 1. Some Linux Experience
-2. uhhhhh
+2. a
 
 The instructions in this guide are directed towards Windows 10/11 users however you may still be able to follow some of the instructions provided that you are knowledgable with your operating system. The main difference comes from the way you access the servers, SSH.
 
