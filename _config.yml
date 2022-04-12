@@ -1,1 +1,4 @@
+plugins:
+  - jekyll-seo-tag
+title: test
 theme: jekyll-theme-cayman
