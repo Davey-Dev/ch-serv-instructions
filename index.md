@@ -1,3 +1,12 @@
+```html
+<head>
+ <meta property="og:title" content="How to Host a Dedicated Clone Hero Online Server for Free">
+<meta property="og:description" content="Made by Pizzachamp">
+<meta property="og:image" content="https://clonehero.net/assets/images/ch.png">
+</head>
+```
+
+
 # How to Host a Dedicated Clone Hero Online Server for Free
 
 Things you will need
