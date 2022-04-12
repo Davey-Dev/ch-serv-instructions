@@ -1,6 +1,8 @@
 plugins:
   - jekyll-seo-tag
-title: test
+title:  
+subtitle: How to Host a Dedicated Clone Hero Online Server for Free
+description: Created by Pizzachamp
 theme: jekyll-theme-cayman
 github:
   is_project_page: false
