@@ -1,4 +1,4 @@
-# How to Host Your Own Dedicated Clone Hero Online Server for Free
+# How to Host a Dedicated Clone Hero Online Server for Free
 
 Things you will need
 1. Time
@@ -210,7 +210,7 @@ With Password: ./Server -n "server name" -ps "password" -a 0.0.0.0 -p 14242
 ```
 
 You should be able to connect using the IP you've been using to connect to your VM (Also listed on your Instance details page on Oracle) and using the default port 14242.
- 
+
 ## Step 14.5: Setup multiple lobbies.
 
 If you are setting up multiple lobbies, enter either of these commands
@@ -262,24 +262,27 @@ If you were to connect back to your VM, you would be at the terminal with no cle
   
 To do this, just type in `killall -e "Server"` and it will close out of the Server program in the background.
 
-## Step 17: Joining your server.
+ ## Step 17: Add lobby/lobbies to in-game list 
  
-There are two ways to add servers to your in-game list.
+ If you are adding 1 or 2 lobbies to your in-game list, you can add it by following these instructions
  
-1. Adding in-game
- If you have a single server you're adding to your list, then this option is for you. You'll want to go to the Online menu and then click "Join Server". From there, press the orange fret (or whatever you have mapped to it) and proceed to enter in your server ip and port that you started your server with back in Step 14.
+ 1. Open up Clone Hero 
+ 2. Press Online
+ 3. Press Join Server
+ 4. Press the Orange fret
+ 5. From this menu, you can add your address, port, and optional password if you set one up
+ 6. After you press confirm it will attempt to connect and add it to your list. If it does not work, read through previous instructions and make sure you haven't skipped anything.
  
-2. Adding to "settings.ini"
- If you have multiple servers, you'll want to make a list of servers that they can copy and paste into their "settings.ini" file. 
+ If you are adding multiple lobbies to your in-game list, you can generate a list using this tool I made called [Clone Hero Online Server List Generator](https://pizzachamp.github.io/chservlistgen/) (rolls off the tongue). This tool assumes that the multiple ports you use are in some numerical order. Once you have your list of lobbies, you'll want to add them to your "settings.ini" file in your Clone Hero Installation Folder which can be found by following these instructions
  
- You can find the "settings.ini" file by going to Clone Hero Launcher => Settings => Folder icon to the right of "CloneHero Install Directory" => Click "Yes" when it asks if you want to continue => Open settings.ini in Notepad or some other text editor.
+ 1. Go to the Clone Hero Launcher
+ 2. Press Settings
+ 3. Press Folder Icon to the right of "CloneHero Install Directory"
+ 4. Open "settings.ini" with Notepad or some other text editor
+ 5. Find a section named "[servers]" (if it doesn't exist, add it yourself)
+ 6. Copy the list of servers so it's in a similar format as shown below
  
- You can generate the list yourself in this format 
- `server(number) = (address):(port)`
- The "number" doesn't matter as long as it doesn't conflict with any other values in your "settings.ini". I also made a program called [ServerListThing](https://github.com/Pizzachamp/ServerListThing) that allows you to easily generate this list of addresses.
- 
- If your list of servers do not appear when you go to your in-game server list, check through any previous steps to see if you missed anything.
-  
+ ![image](https://cdn.discordapp.com/attachments/813512711877951531/963244299380744212/unknown.png)
  
 # Q&A
 
@@ -306,17 +309,8 @@ Thankfully. this can be a mostly one-time setup where you can start the lobby an
 Oracle Cloud will not restrict you from using resources that are paid. Because of this, they make you put a card on your account so that in the case where you were to use more resources, they would charge you. 
 
 You can check out Oracle Cloud's Always Free cloud services [here](https://www.oracle.com/cloud/free/#always-free).
-
-### ***I need help with [issue]!***
-
-If you have problems with any particular part of these instructions or just have any questions regarding Oracle Cloud or the Standalone Server, you may contact me via [Twitter](https://www.twitter.com/pizzachamp15) or Discord DMs. My Discord tag is Pizzachamp#0001.
- 
-### ***Can I use this Oracle Cloud service with anything else?***
- 
-While this guide is only for setting up a Clone Hero Online Server with Oracle Cloud hosting, you can certainly follow this guide up to a certain point and be able to have a full machine that you can use for other purposes. You should be able to follow the instructions from Steps 1-8 to guide you through the initial process of setting up the VM. You can also utilize Steps 9 and 11 for port forwarding any ports you want, such as 25565 for a Minecraft Java Server.
-
 # Special Thanks
 
 Big thanks to Matt for making and improving on the standalone server. Makes life much simpler for us.
   
-Big thanks to [BormoTime](https://www.bormotime.com) for telling me about Oracle Cloud and helping me through some of my setup during my first use.
+Big thanks to BormoTime for telling me about Oracle Cloud and helping me through some of my setup during my first use.
