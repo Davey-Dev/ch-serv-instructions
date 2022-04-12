@@ -311,6 +311,6 @@ Oracle Cloud will not restrict you from using resources that are paid. Because o
 You can check out Oracle Cloud's Always Free cloud services [here](https://www.oracle.com/cloud/free/#always-free).
 # Special Thanks
 
-Big thanks to Matt for making and improving on the standalone server. Makes life much simpler for us.
+Big thanks to [Matt](https://twitter.com/mdsitton) for making and improving on the standalone server. Makes life much simpler for us.
   
-Big thanks to BormoTime for telling me about Oracle Cloud and helping me through some of my setup during my first use.
+Big thanks to [BormoTime](https://twitter.com/BormoTime) for telling me about Oracle Cloud and helping me through some of my setup during my first use.
