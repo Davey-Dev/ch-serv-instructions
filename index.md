@@ -262,27 +262,27 @@ If you were to connect back to your VM, you would be at the terminal with no cle
   
 To do this, just type in `killall -e "Server"` and it will close out of the Server program in the background.
 
- ## Step 17: Add lobby/lobbies to in-game list 
+## Step 17: Add lobby/lobbies to in-game list 
  
- If you are adding 1 or 2 lobbies to your in-game list, you can add it by following these instructions
+If you are adding 1 or 2 lobbies to your in-game list, you can add it by following these instructions
  
- 1. Open up Clone Hero 
- 2. Press Online
- 3. Press Join Server
- 4. Press the Orange fret
- 5. From this menu, you can add your address, port, and optional password if you set one up
- 6. After you press confirm it will attempt to connect and add it to your list. If it does not work, read through previous instructions and make sure you haven't skipped anything.
+1. Open up Clone Hero 
+2. Press Online
+3. Press Join Server
+4. Press the Orange fret
+5. From this menu, you can add your address, port, and optional password if you set one up
+6. After you press confirm it will attempt to connect and add it to your list. If it does not work, read through previous instructions and make sure you haven't skipped anything.
  
- If you are adding multiple lobbies to your in-game list, you can generate a list using this tool I made called [Clone Hero Online Server List Generator](https://pizzachamp.github.io/chservlistgen/) (rolls off the tongue). This tool assumes that the multiple ports you use are in some numerical order. Once you have your list of lobbies, you'll want to add them to your "settings.ini" file in your Clone Hero Installation Folder which can be found by following these instructions
+If you are adding multiple lobbies to your in-game list, you can generate a list using this tool I made called [Clone Hero Online Server List Generator](https://pizzachamp.github.io/chservlistgen/) (rolls off the tongue). This tool assumes that the multiple ports you use are in some numerical order. Once you have your list of lobbies, you'll want to add them to your "settings.ini" file in your Clone Hero Installation Folder which can be found by following these instructions
  
- 1. Go to the Clone Hero Launcher
- 2. Press Settings
- 3. Press Folder Icon to the right of "CloneHero Install Directory"
- 4. Open "settings.ini" with Notepad or some other text editor
- 5. Find a section named "[servers]" (if it doesn't exist, add it yourself)
- 6. Copy the list of servers so it's in a similar format as shown below
+1. Go to the Clone Hero Launcher
+2. Press Settings
+3. Press Folder Icon to the right of "CloneHero Install Directory"
+4. Open "settings.ini" with Notepad or some other text editor
+5. Find a section named "[servers]" (if it doesn't exist, add it yourself)
+6. Copy the list of servers so it's in a similar format as shown below
  
- ![image](https://cdn.discordapp.com/attachments/813512711877951531/963244299380744212/unknown.png)
+![image](https://cdn.discordapp.com/attachments/813512711877951531/963244299380744212/unknown.png)
  
 # Q&A
 
@@ -311,6 +311,6 @@ Oracle Cloud will not restrict you from using resources that are paid. Because o
 You can check out Oracle Cloud's Always Free cloud services [here](https://www.oracle.com/cloud/free/#always-free).
 # Special Thanks
 
-Big thanks to Matt for making and improving on the standalone server. Makes life much simpler for us.
+Big thanks to [Matt](https://twitter.com/mdsitton) for making and improving on the standalone server. Makes life much simpler for us.
   
-Big thanks to BormoTime for telling me about Oracle Cloud and helping me through some of my setup during my first use.
+Big thanks to [BormoTime](https://twitter.com/BormoTime) for telling me about Oracle Cloud and helping me through some of my setup during my first use.
